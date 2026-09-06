@@ -321,3 +321,152 @@ footer{ border-top:1px solid var(--line); padding:56px 0 36px; background:var(--
     width: 115px;
   }
 }
+/* ===== MOBILE FIXES ===== */
+
+@media (max-width: 768px) {
+
+  .nav {
+    padding: 12px 20px;
+    gap: 10px;
+  }
+
+  .nav-right {
+    gap: 8px;
+  }
+
+  .nav-right .btn {
+    display: none;
+  }
+
+  .lang-toggle button {
+    padding: 6px 10px;
+  }
+
+  .brand-logo {
+    width: 110px;
+  }
+
+  .hero {
+    padding: 130px 0 70px;
+  }
+
+  .hero-inner {
+    gap: 35px;
+  }
+
+  .hero-visual {
+    order: 0;
+  }
+
+  h1.hero-title {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+
+  .hero-sub {
+    font-size: 15px;
+  }
+
+  .hero-stats {
+    gap: 20px;
+  }
+
+  .stat b {
+    font-size: 22px;
+  }
+
+  .stat span {
+    font-size: 11px;
+  }
+
+  section {
+    padding: 75px 0;
+  }
+
+  .sec-head {
+    margin-bottom: 40px;
+  }
+
+  .feature-row {
+    padding: 28px 0;
+  }
+
+  .vision-grid {
+    gap: 35px;
+  }
+
+  .robot-card {
+    max-width: 260px;
+  }
+
+  .guide-visual {
+    padding: 20px;
+  }
+
+  .foot-cols {
+    gap: 35px;
+  }
+}
+
+
+/* ===== SMALL MOBILE ===== */
+
+@media (max-width: 480px) {
+
+  .wrap {
+    padding: 0 16px;
+  }
+
+  .nav {
+    padding: 10px 16px;
+  }
+
+  .brand-logo {
+    width: 95px;
+  }
+
+  .burger {
+    width: 36px;
+    height: 36px;
+  }
+
+  h1.hero-title {
+    font-size: 32px;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .flow-step {
+    padding-inline-end: 0;
+  }
+
+  .cam-foot {
+    flex-direction: column;
+  }
+
+  .cam-foot .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cta {
+    padding: 90px 0;
+  }
+
+  .foot-bottom {
+    flex-direction: column;
+  }
+}
