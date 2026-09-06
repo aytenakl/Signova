@@ -303,4 +303,21 @@ footer{ border-top:1px solid var(--line); padding:56px 0 36px; background:var(--
 @media (prefers-reduced-motion: reduce){
   *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; }
 }
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 520px) {
+  .brand-logo {
+    width: 115px;
+  }
 }
